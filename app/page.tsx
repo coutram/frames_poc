@@ -28,10 +28,10 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'frames.lionvault.xyz',
+  title: 'frames-poc.vercel.app',
   description: 'LFG',
   openGraph: {
-    title: 'frames.lionvault.xyz',
+    title: 'frames-poc.vercel.app',
     description: 'LFG',
     images: [`${NEXT_PUBLIC_URL}/burger.jpg`],
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>frames.lionvault.xyz</h1>
+      <h1>frames-poc.vercel.app</h1>
     </>
   );
 }
